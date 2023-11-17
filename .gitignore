@@ -339,6 +339,9 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-  .gitignore/
+  *.gitignore
   
   *.sln
+
+  Instr_C_Sh.md
+  
