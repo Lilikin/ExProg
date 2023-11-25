@@ -25,7 +25,7 @@
 int[] array = {19, 21, 31, 41, 4, 61, 17, 18, 19};
 
 int n = array.Length;
-int find = 19;
+int find = 21;
 int index = 0;
 
 while (index < n)
