@@ -131,5 +131,5 @@ string test = "Hello"; //  Строчка - массив символов
 Console.WriteLine(test[0]);
 Console.WriteLine(test.Length);
 
-
+ 
 
