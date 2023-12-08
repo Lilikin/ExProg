@@ -153,3 +153,10 @@ matrix.GetLength(1) - 1 - количество столбцов
 fn = fn-1 + fn-2 
 
 \n - перенос на новую строчку
+
+https://gist.github.com/MorningAndrey/7162d33eeb8081d26a3ec4b4075423e6 - методы связанные с массивами
+
+!!!!!!!!!
+добавить после обучения  плагин: Tabnine: AI Autocomplete & Chat for J
+
+!= - не равно
