@@ -83,24 +83,24 @@ int[] CreateArray(int size, int minRandom, int maxRandom)
     return array;
 }
 
-// int GetCount(int[] arr)
-// {
-//     int count = 0;
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         if (arr[i] % 7 == 0 && arr[i] % 10 == 1)
-//         {
-//             count++; 
-//         }
-//     }
-//     return count; 
-// }
+int GetCount(int[] arr)
+{
+    int count = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] % 7 == 0 && arr[i] % 10 == 1)
+        {
+            count++; 
+        }
+    }
+    return count; 
+}
 
-// // Вызов метода
-// int[] result = CreateArray(15, 21, 100);
-// // Получим массив на 10 элементов, эл: [-10, 50]
-// Console.WriteLine($"[ {string.Join("; ", result)} ]");
-// Console.WriteLine($"Total: {GetCount(result)}");
+// Вызов метода
+int[] result = CreateArray(15, 21, 100);
+// Получим массив на 10 элементов, эл: [-10, 50]
+Console.WriteLine($"[ {string.Join("; ", result)} ]");
+Console.WriteLine($"Total: {GetCount(result)}");
 
 
 // Заполните массив на N (вводится с консоли, не более 8)

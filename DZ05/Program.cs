@@ -56,11 +56,11 @@ void AcceptsElement(int[,] matr)
     return;
 }
 
-// int[,] matrix = new int[4, 5];
-// FillArray(matrix);
-// PrintArray(matrix);
-// Console.WriteLine();
-// AcceptsElement(matrix);
+int[,] matrix = new int[4, 5];
+FillArray(matrix);
+PrintArray(matrix);
+Console.WriteLine();
+AcceptsElement(matrix);
 
 
 // Задача 2: 
@@ -144,11 +144,11 @@ void MinRowSum(int[,] matr)
 
 
 
-int[,] matrix = new int[4, 4];
-FillArray(matrix);
-PrintArray(matrix);
-Console.WriteLine();
-MinRowSum(matrix);
+// int[,] matrix = new int[4, 4];
+// FillArray(matrix);
+// PrintArray(matrix);
+// Console.WriteLine();
+// MinRowSum(matrix);
 
 
 

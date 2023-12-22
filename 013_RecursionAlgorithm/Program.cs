@@ -108,7 +108,7 @@ PrintImage(pic);
 //     else return n * Factorial(n - 1);
 // }
 // //Console.WriteLine(Factorial(3)); //1*2*3=6 - 3!
-// for (int i = 1; i < 40; i++)
+// for (int i = 1; i < 5; i++)
 // {
 //     Console.WriteLine($"{i}! = {Factorial(i)}");
 // }
